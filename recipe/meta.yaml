@@ -1,5 +1,5 @@
 {% set name = "wincertstore" %}
-{% set version = "0.2" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.zip
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: 780bd1557c9185c15d9f4221ea7f905cb20b93f7151ca8ccaed9714dce4b327a
+  sha256: ebd681f45f4e156493b4fa54f134b9a171d9c0a8de40ae1a0bc96c3092cb8b12
 
 build:
   number: 0
